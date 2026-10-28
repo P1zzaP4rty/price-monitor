@@ -1,0 +1,17 @@
+=== run 1: baseline ===
+baseline created: 20 items tracked, nothing to compare yet
+
+=== run 2: nothing changed ===
+items tracked: 20 | baseline: yes
+changes: none
+wrote changes.csv (0 rows)
+
+=== run 3: simulated price move (+3.00 on one item) ===
+  editing A Light in the Attic 51.77 -> 54.77
+items tracked: 20 | baseline: yes
+changes: {'PRICE': 1}
+wrote changes.csv (1 rows)
+
+=== changes.csv ===
+change,title,old_price,new_price,url
+PRICE,A Light in the Attic,54.77,51.77,https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
